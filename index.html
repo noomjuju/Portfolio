@@ -33,14 +33,13 @@
             <div class="container hero-inner">
                 <div class="hero-text">
                     <p class="hero-eyebrown">Hello, I’m Sakdidet 👋</p>
-                    <h1>Junior UX/UI Designer</h1>
+                    <h1>UX/UI Designer</h1>
                     <p class="hero-subtitle">
-                        ผมออกแบบประสบการณ์ใช้งานและเว็บสำหรับธุรกิจเล็ก ๆ
-                        เน้นเรียบง่าย ใช้งานจริงได้ และดูเป็นมืออาชีพ
+
                     </p>
                     <div class="hero-action">
-                        <a href="#project" class="btn btn-primary">view Project</a>
-                        <a href="#contact" class="btn btn-primary">contact me</a>
+                        <a href="#project" class="btn btn-primary">View Project</a>
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
                     </div>
                 </div>
                 <div class="hero-photo profile-coin">                    
@@ -59,7 +58,9 @@
 
                 <header class="section-header">
                     <h2>About me</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In totam ut veritatis adipisci repellat alias modi quis velit animi, iure natus expedita, consequatur officia! Impedit iusto asperiores temporibus perferendis ea.</p>
+                    <p>I’m a junior UX/UI designer who loves turning ideas into clean, practical websites that real people can use every day. 
+                        I focus on small businesses, creating simple layouts, clear flows, and interfaces that look friendly yet professional.
+                    </p>
                 </header>
             </div>
 
@@ -115,7 +116,7 @@
         <section id="education" class="section section-gray">
             <div class="container">
                 <header class="section-header">
-                    <h2>education</h2>
+                    <h2>Education</h2>
                 </header>
 
                     <article class="education-card">
@@ -198,8 +199,7 @@
         <section id="project" class="section ">
             <div class="container">
                 <header class="section-header">
-                    <h2>Selected Projcet</h2>
-                    <p>โปรเจ็คที่ภูมิใจ</p>
+                    <h2>Projcet</h2>
                 </header>
                 
                 <div class="project-grid">
@@ -293,13 +293,17 @@
 
                 </div>
 
+                    <div class="project-action">
+                        <a href="index-project.html" class="btn btn-primary">View Project</a>
+                    </div>
+
                     <!--Page Navigation-->
                      <nav class="pagination">
                         <a href="#" class="page-btn disabled">Prev</a>
-                        <a href="projects.html" class="page-btn active">1</a>
-                        <a href="project-page2.html" class="page-btn">2</a>
-                        <a href="project-page3.html" class="page-btn">3</a>
-                        <a href="project-page2.html" class="page-btn">Next</a>
+                        <a href="#" class="page-btn active">1</a>
+                        <a href="#" class="page-btn">2</a>
+                        <a href="#" class="page-btn">3</a>
+                        <a href="#" class="page-btn">Next</a>
                     </nav>
             </div>
         </section>
@@ -353,7 +357,6 @@
     </footer>
 
         <script>
-  // ชื่อไฟล์รูปทั้งหมด
   const profileImages = [
     'profiles-1.png',
     'profiles-2.png',
@@ -365,16 +368,16 @@
   const front  = document.querySelector('.face.front');
   const back   = document.querySelector('.face.back');
 
-  // index ของรูปชุดปัจจุบัน
+
   let index = 0;
 
-  // ตอนโหลดหน้าให้เซตรูปคู่แรกก่อน (กันพลาด)
-  front.src = profileImages[index];                 // 0
-  back.src  = profileImages[(index + 1) % profileImages.length]; // 1
 
-  // ทุกครั้งที่ animation หมุนครบ 1 รอบ (360deg)
+  front.src = profileImages[index];                
+  back.src  = profileImages[(index + 1) % profileImages.length]; 
+
+
   coin.addEventListener('animationiteration', () => {
-    // ขยับทีละ 2 รูป = (0,1) -> (2,3) -> (0,1) วนไป
+
     index = (index + 2) % profileImages.length;
 
     front.src = profileImages[index];
