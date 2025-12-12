@@ -754,3 +754,173 @@ body{
   border-color: var(--primary);
   background: var(--primary);
 }
+
+
+
+/*==========================
+Responsive
+==========================*/
+
+/* tablet เล็ก-กลาง (≤ 1024px) */
+@media (max-width:1024px){
+
+  .container{
+    padding: 0 20px;
+  }
+
+  /*Abou + Experience + Education*/
+  .about-grid{
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .exp-card,
+  .education-card{
+    padding: 22px 22px;
+  }
+
+  .education-grid{
+    grid-template-columns: 1fr;
+  }
+
+  /*Skills*/
+  .skills-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .skills-chips{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+
+  /*Project*/
+  .project-grid{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+}
+
+/*Mobile (≤ 768px) */
+@media(max-width:768px){
+
+  body{
+    font-size: 15px;
+  }
+
+  .section,
+  .about,
+  .hero{
+    padding: 40px 0;
+  }
+
+  /*Navbar*/
+  .navbar-inner{
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 0;
+  }
+
+  .nav-links{
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 13px;
+  }
+
+  /*Hero*/
+  .hero-inner{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-text{
+    order: 2;
+  }
+
+  .profile-coin{
+    margin: 0 auto 20px;
+  }
+
+  .hero h2{
+    font-size: 28px;
+  }
+
+  /*Contact-pill*/
+  .about-contact-links{
+    margin-top: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .contact-pill{
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+  }
+
+  /*Skilss&Chips*/
+  .skills-chips{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+
+  .skills-card{
+    padding: 22px 20px;
+  }
+
+  /*Project*/
+  .project-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .project-thumb{
+    height: 200px;
+  }
+
+  /*Contact Form*/
+  #contac .container{
+    padding: 0 16px;
+  }
+
+  .contact-form{
+    padding: 22px 20px;
+  }
+
+  .project-action{
+    margin-top: 8px;
+  }
+
+  /*Pagination*/
+  .pagination{
+    padding-top: 32px;
+  }
+}
+
+/*มือถือเล็กมาก (≤ 480px) */
+@media (max-width:480px){
+
+  .hero h1{
+    font-size: 24px;
+  }
+
+  .section-header{
+    font-size: 20px;
+  }
+
+  .skills-chips{
+    grid-template-columns: 1fr;
+  }
+
+  .education-card,
+  .exp-card{
+    padding: 18px 16px;
+  }
+
+  .project-thumb{
+    height: 180px;
+  }
+
+  .btn,
+  .page-btn{
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+}
