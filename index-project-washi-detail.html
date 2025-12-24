@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="project-detail.css">
+
+
+</head>
+<body>
+    <!----Navbar-->
+    <header class="navbar">
+        <div class="container navbar-inner">
+            <div class="nav-left">
+                <div class="logo-circle"
+                    data-link="index.html">
+                    <img src="logo.png" alt="Sakdidet Logo">
+                </div>
+                <span class="brand-name">Portfolio Sakdidet</span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#project">Project</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!--Hero Cover-->
+        <section class="case-hero">
+            <div class="container">
+                <div class="case-cover">
+                    <img src="thumb.png" alt="name">
+                </div>
+
+                <div class="case-head">
+                    <div class="head">
+                        <div>
+                            <p class="case-eyebrow">Case Study</p>
+                            <h1 class="case-title">Washi Carcare Service</h1>
+                            <p class="case-subtitle">โปรเจ็คที่สร้างระบบจองคิวล้างรถและพัฒนาระบบ</p>
+                        </div>
+
+                        <div class="case-actions">
+                            <a class="btn btn-primary" href="index-project.html">Back to project</a>
+                            <a class="btn btn-outline" href="https://www.figma.com/design/gASNwtjb5kihASAlq2a1li/UI?node-id=132-4056&t=As6TRZ9LbHM9cxFy-1" 
+                            target="_blank">View Figma</a>
+                        </div>
+                    </div>
+
+                    <div class="case-meta">
+                        <div class="meta-item">
+                            <span class="meta-lable">Role</span>
+                            <span class="meta-value">UX/UI Designer</span>
+                        </div>
+
+                        <div class="meta-item">
+                            <span class="meta-lable">Platform</span>
+                            <span class="meta-value">Web Mobile</span>
+                        </div>
+
+                        <div class="meta-item">
+                            <span class="meta-lable">Timeline</span>
+                            <span class="meta-value">2025</span>
+                        </div>
+
+                        <div class="meta-item">
+                            <span class="meta-lable">Tools</span>
+                            <span class="meta-value">Figma Figlam</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Content Section-->
+        <section class="case-body">
+            <div class="container case-sections">
+
+                <!--Section 1-->
+                <article class="case-section no-media">
+                    <div class="case-text">
+                        <h2>ภาพรวมของงาน</h2>
+                        <p>
+                        “Washi” คือโปรเจกต์บริการดูแลรถที่ผมสร้างขึ้นเพื่อฝึกออกแบบ UX/UI แบบครบทั้งระบบ โดยออกแบบทั้งหน้าสำหรับลูกค้า (Customer-facing) และแดชบอร์ดสำหรับผู้ดูแลระบบ (Admin Dashboard) เพื่อท้าทายตัวเองในโจทย์ที่มีความเป็น Full-system มากขึ้น
+
+                        ฝั่งลูกค้า ผู้ใช้สามารถเลือกบริการล้างรถ กรอกรายละเอียดรถ จองช่วงเวลาเข้ารับบริการ และติดตามสถานะคำสั่งซื้อได้
+
+                        ฝั่งแอดมิน ผมออกแบบแดชบอร์ดสำหรับจัดการการจองที่เข้ามา สร้าง/โพสต์โปรโมชัน และติดตามรายได้ภาพรวมของธุรกิจ
+
+                        โปรเจกต์นี้ช่วยให้ผมได้คิดเชิง Business Logic และ User Flow มากขึ้น รวมถึงได้เห็นความแตกต่างของการออกแบบสำหรับผู้ใช้งานทั่วไป เทียบกับการออกแบบสำหรับทีมงานภายในองค์กรอย่างชัดเจน</p>
+                    </div>
+
+                </article>
+
+                <!--Section 2-->
+                <article class="case-section no-media">
+                    <div class="case-text">
+                        <h2>ปัญหา</h2>
+                        <p>
+                            1.เจ้าของรถหลายคนมักไม่มีเวลา ไม่มีพื้นที่ หรือมีงบประมาณจำกัดทำให้ดูแลความสะอาดรถได้ไม่ต่อเนื่องหรือไม่คุ้มค่า
+
+                            2.ร้านคาร์แคร์จำนวนมากยังใช้การจองแบบแมนนวลไม่มีระบบติดตามงาน ส่งผลให้การประสานงานภายในไม่มีประสิทธิภาพ<br>
+
+                            3.ระบบส่วนใหญ่ยังขาดเครื่องมือฝั่งแอดมินที่ครบถ้วนสำหรับจัดการโปรโมชัน บริการ และดูข้อมูลเชิงวิเคราะห์ 
+                        </p>
+                    </div>
+
+                </article>
+
+                <!--Section 3-->
+                <article class="case-section no-media">
+                    <div class="case-text">
+                        <h2>แนวทางแก้ไข</h2>
+                        <h3>สำหรับลูกค้า</h3>
+                        <p>
+                            1.ขั้นตอนการจองที่ใช้งานง่าย: เลือกบริการ ระบุประเภทรถ ประเภทเชื้อเพลิง สีรถ และช่วงเวลาที่ต้องการ<br>
+
+                            2.แสดงคิวการให้บริการแบบเรียลไทม์<br>
+
+                            3.เลือกบริการเสริม  และสามารถขอใบเสร็จได้<br>
+
+                            4.ตรวจสอบประวัติการจองและรีวิวที่ผ่านมา พร้อมติดตามสถานะงานได้
+                        </p>
+
+                        <h3>สำหรับAdmin</h3>
+                        <p>
+                            1.แดชบอร์ดสรุปรายได้รายวัน รายเดือน และรายปี<br>
+
+                            2.จัดการบริการ ราคา และบริการเสริมได้จากหลังบ้าน<br>
+
+                            3.ดูคำขอ/รายละเอียดจากลูกค้า และส่งออกรายงานได้<br>
+
+                            4.สร้างและโพสต์โปรโมชัน รวมถึงดูแล/คัดกรองรีวิวจากลูกค้า
+                        </p>
+                    </div>
+
+                </article>
+
+                <!--Section 4-->
+                <article class="case-section case-section--full">
+                    <div class="case-text">
+                        <h2>กระบวนการ UX</h2>
+                        <h3>Step 1 Empathize</h3>
+                        <p>
+                            จากการทำ Desk Research ผมพบปัญหาหลักของเจ้าของรถในการล้างรถเอง ได้แก่ <strong>พื้นที่จำกัด</strong> (อยู่คอนโด/ในเมือง), <strong>ขาดทักษะและความมั่นใจ</strong>, <strong>อุปกรณ์ราคาแพงไม่คุ้ม</strong>, <strong>ไม่อยากล้างเอง</strong>, <strong>ไม่มีเวลา</strong>, และบางคนใช้คาร์แคร์เพื่อ <strong>หาที่จอดรถชั่วคราว</strong> ด้วย
+
+                            ข้อมูลเหล่านี้ทำให้ Washi ถูกออกแบบมาเพื่อเป็นบริการล้างรถที่ <strong>ใช้งานง่าย เข้าถึงสะดวก และเป็นมืออาชีพ</strong> ช่วยแก้ทั้งปัญหาในการใช้งานและความรู้สึกของผู้ใช้พร้อมกัน
+                        </p>
+                    </div>
+
+                    <figure class="case-media case-media--empathy">
+                        <img src="empathy-crop.png" alt="Empathize">
+                    </figure>
+                </article>
+
+                <!--Section Text-->
+                <article class="case-section no-media">
+                    <div class="case-text">
+                        <h2>Step 2 User Persona</h2>
+                        <p>หลังจากทำการ Empathize แล้วได้ข้อมูลสรุปมาแล้วต่อไปก็จะทำ User Persona โดยแบ่งเป็น2กลุ่มผู้ใช้คือ<br> 1.กลุ่มผู้ใช้ 2.กลุ่มแอดมิน</p>
+                    </div>
+                </article>
+
+                <!--Section 5-->
+                <article class="case-section persona-section">
+                    <figure class="case-media persona-media">
+                        <img src="User Persona-End-User.png" alt="Persona">
+                        <div class="persona-facts">
+                            <span class="fact-pill">Male 33ปี</span>
+                            <span class="fact-pill">Office Employee</span>
+                            <span class="fact-pill">ใช้รถส่วนตัวไปทำงาน</span>
+                        </div>
+                    </figure>
+
+                    <div class="case-text">
+                        <h2>User Persona</h2>
+                        <h3>User Persona -- End User</h3>
+                        <ul class="persona-basic">
+                            <li><strong>Name</strong> : Nattawut</li>
+                            <li><strong>Age</strong> :33</li>
+                            <li><strong>Occupation</strong> :Office Employee</li>
+                            <li><strong>Income</strong> :45K/month</li>
+                            <li><strong>Living</strong> :Condo in the city</li>
+                        </ul>
+
+                        <div class="persona-columns">
+                            <div>
+                                <h3>ปัญหาของผู้ใช้งาน</h3>
+                                <ul>
+                                    <li>ไม่มีเวลาขับรถออกไปล้างรถ</li>
+                                    <li>ไม่มีพื้นที่หรืออุปกรณ์ล้างรถที่บ้าน</li>
+                                    <li>ไม่อยากลงทุนในอุปกรณ์ทำความสะอาดราคาแพง</li>
+                                    <li>หงุดหงิดกับคิวยาวที่ร้านล้างรถแบบดั้งเดิม</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h3>เป้าหมายของผู้ใช้งาน</h3>
+                                <ul>
+                                    <li>ต้องการล้างรถโดยไม่เสียเวลา</li>
+                                    <li>ต้องการบริการที่สามารถจองล่วงหน้าได้</li>
+                                    <li>ต้องการเห็นราคาที่โปร่งใสก่อนยืนยันการจอง</li>
+                                    <li>มองหาผู้ให้บริการที่น่าเชื่อถือและเป็นมืออาชีพ</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!--Section 6-->
+                <article class="case-section persona-section">
+                    <figure class="case-media persona-media">
+                        <img src="Admin Persona.png" alt="Persona">
+                        <div class="persona-facts">
+                            <span class="fact-pill">Female 41ปี</span>
+                            <span class="fact-pill">ปัญหาในการจัดการระบบหลังบ้าน</span>
+                            <span class="fact-pill">อยากดู Cash Flow ของธุรกิจตัวเอง</span>
+                        </div>
+                    </figure>
+
+                    <div class="case-text">
+                        <h2>Admin Persona</h2>
+                        <h3>Car Wash Owner</h3>
+                        <ul class="persona-basic">
+                            <li><strong>Name</strong> : Sasithorn</li>
+                            <li><strong>Age</strong> : 41</li>
+                            <li><strong>Occupation</strong> : Car wash business owner</li>
+                            <li><strong>Income</strong> : 80k/month</li>
+                        </ul>
+                        
+                        <div class="persona-columns">
+                            <div>
+                                <h3>ปัญหาของผู้ใช้งาน</h3>
+                                <ul>
+                                    <li>ลูกค้าบางรายจองซ้ำโดยไม่ได้ตั้งใจ</li>
+                                    <li>ข้อมูลลูกค้าและข้อมูลการจองกระจัดกระจายและไม่เป็นระเบียบ</li>
+                                    <li>ไม่มีระบบที่เชื่อถือได้ในการติดตามความคิดเห็นหรือรีวิวจากลูกค้า</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h3>เป้าหมายของผู้ใช้งาน</h3>
+                                <ul>
+                                    <li>ต้องการวิธีที่ง่ายในการจัดการและกำหนดตารางนัดหมาย</li>
+                                    <li>ต้องการเข้าถึงสรุปรายวันและสถิติการจอง</li>
+                                    <li>ต้องการความสามารถในการอัปเดตบริการและโปรโมชั่นได้ด้วยตนเอง</li>
+                                    <li>หวังว่าจะได้รับความคิดเห็นจากลูกค้าจริงเพื่อปรับปรุงบริการ</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+                <!--Section Text-->
+                <article class="case-section no-media">
+                    <div class="case-text">
+                        <h2>Next to do How might we</h2>
+                        <p>หลังจากทำการ Persona แล้วจะทำการเอาปัญหาและเป้าหมายของกลุ่มผู้ใช้แต่ละกลุ่มมาตั้งคำถามในการคิดฟีเจอร์ที่จะตอบโจทย์กับระบบงานนี้</p>
+                    </div>
+                </article>
+
+                <!--Section 7-->
+                <article class="case-section persona-section">
+                    <figure class="case-media persona-media">
+                        <img src="User Insights.png" alt="How might we">
+                    </figure>
+
+                    <div class="case-text">
+                        <h2>How might we</h2>
+                        <h3>User Insights</h3>
+                        <h4>ปัญหาที่พบ</h4>
+                        <p>
+                            ผู้ใช้ส่วนใหญ่มีข้อจำกัดด้านเวลาและพื้นที่ในการล้างรถ โดยเฉพาะผู้ที่อาศัยอยู่ในคอนโดมิเนียมหรือเขตเมือง 
+                            พวกเขาไม่สะดวกที่จะล้างรถเอง ไม่ต้องการลงทุนในอุปกรณ์ราคาแพง และไม่ชอบรอคิวนาน
+                        </p>
+                        <h3>ความต้องการของผู้ใช้</h3>
+                        <ul class="persona-basic">
+                            <li>บริการล้างรถที่สะดวกสบาย สามารถจองล่วงหน้าได้ง่าย</li>
+                            <li>ราคาและระยะเวลาการให้บริการที่ชัดเจนก่อนยืนยันการจอง</li>
+                            <li>แพลตฟอร์มที่น่าเชื่อถือพร้อมรีวิวจากผู้ใช้จริง</li>
+                            <li>โซลูชันที่เรียบง่าย ประหยัดเวลา และไม่ยุ่งยาก</li>
+                            <li>ความรู้สึกควบคุมได้โดยไม่รู้สึกว่าถูกกดดัน</li>
+                        </ul>
+
+                        <h3>เราจะทำอย่างไรได้บ้าง</h3>
+                        <ul class="persona-basic">
+                            <li>เราจะทำให้การล้างรถเป็นเรื่องง่ายและเข้าถึงได้สำหรับผู้ที่มีเวลาหรือพื้นที่จำกัดได้อย่างไร?</li>
+                            <li>เราจะช่วยให้ผู้ใช้ไว้วางใจบริการผ่านรีวิวและข้อมูลบริการที่โปร่งใสได้อย่างไร?</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!--Section 8-->
+                <article class="case-section persona-section">
+                    <figure class="case-media persona-media">
+                        <img src="User Insights.png" alt="How might we">
+                    </figure>
+
+                    <div class="case-text">
+                        <h2>How might we</h2>
+                        <h3>Admin Insights</h3>
+                        <h4>ปัญหาที่พบ</h4>
+                        <p>
+                        เจ้าของธุรกิจเผชิญกับความท้าทายในการจัดการการจองและข้อมูลของลูกค้า ปัญหาต่างๆ เช่น การจองซ้ำซ้อน 
+                        ข้อมูลลูกค้าที่กระจัดกระจาย และการขาดข้อเสนอแนะที่นำไปใช้ได้ ทำให้ยากต่อการปรับปรุงบริการหรือดำเนินงานอย่างมีประสิทธิภาพ
+                        </p>
+                        <h3>ความต้องการของผู้ใช้</h3>
+                        <ul class="persona-basic">
+                            <li>ระบบที่ช่วยจัดการการจองของลูกค้าได้อย่างง่ายดายและหลีกเลี่ยงการซ้ำซ้อน</li>
+                            <li>รายงานรายวันและการมองเห็นประสิทธิภาพการจอง</li>
+                            <li>วิธีการรับและจัดการข้อเสนอแนะของลูกค้า</li>
+                            <li>ความสามารถในการอัปเดตโปรโมชั่นและบริการได้อย่างอิสระ</li>
+                            <li>ฐานข้อมูลส่วนกลางของข้อมูลลูกค้าและประวัติการจอง</li>
+                        </ul>
+
+                        <h3>เราจะทำอย่างไรได้บ้าง</h3>
+                        <ul class="persona-basic">
+                            <li>เราจะช่วยผู้ดูแลระบบจัดระเบียบและจัดการการจองได้อย่างมีประสิทธิภาพมากขึ้นได้อย่างไร?</li>
+                            <li>เราจะช่วยผู้ดูแลระบบรวบรวมและนำข้อเสนอแนะของลูกค้าไปใช้เพื่อปรับปรุงบริการได้อย่างไร?</li>
+                            <li>เราจะช่วยให้ผู้ดูแลระบบอัปเดตเนื้อหา (เช่น บริการ โปรโมชั่น) โดยไม่ต้องพึ่งพาผู้พัฒนาได้อย่างไร?</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!--Section Text-->
+                <article class="case-section no-media">
+                    <div class="case-text">
+                        <h2>Step 3 Ideate</h2>
+                        <p>
+                            ในช่วงคิดไอเดีย ผมจะคิดฟีเจอร์จากปัญหาที่พบในการรีเสิร์ชผู้ใช้ แล้วนำมาจัดหมวดและจัดลำดับความสำคัญด้วยตาราง 
+                            ผลกระทบ/ความพยายาม (Impact/Effort) เพื่อโฟกัสฟีเจอร์ที่สำคัญที่สุดต่อทั้งฝั่ง ผู้ใช้ และ แอดมิน
+                        </p>
+                        <img src="ideate.png" alt="Name">
+                    </div>
+                </article>
+
+                <!--Section 8-->
+                <article class="case-section persona-section">
+                    <figure class="case-media persona-media">
+                        <img src="Impact–Effort Matrix User.png" alt="How might we">
+                    </figure>
+
+                    <div class="case-text">
+                        <h2>จัดลำดับความสำคัญฟีเจอร์ (Impact–Effort Matrix)</h2>
+                        <h3>เป้าหมายฝั่งผู้ใช้</h3>
+                        <p>ทำให้บริการทำความสะอาดรถ เข้าถึงง่ายขึ้น ประหยัดเวลา และน่าเชื่อถือขึ้น</p>
+                        <h4>Easy Wins (ผลกระทบสูง–ทำง่าย):</h4>
+                        <ul class="persona-basic">
+                            <li>เห็นราคาก่อนจอง </li>
+                            <li>เลือกประเภทบริการ</li>
+                            <li>จองล่วงหน้า เลือกวัน-เวลา</li>
+                            <li>รีวิวบริการ</li>
+                            <li>ใบเสร็จ/ยืนยันบริการ</li>
+                            <li>ติดตามสถานะการจอง</li>
+                        </ul>
+
+                        <h3>Big Bets (ผลกระทบสูง–ทำยาก):</h3>
+                        <ul class="persona-basic">
+                            <li>ระบบจ่ายเงินออนไลน์</li>
+                            <li>แสดงข้อมูลช่างผู้ให้บริการ</li>
+                            <li>ระบบแต้ม/รางวัล</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!--Section 9-->
+                <article class="case-section persona-section">
+                    <figure class="case-media persona-media">
+                        <img src="Impact–Effort Matrix Admin.png" alt="Impact–Effort Matrix">
+                    </figure>
+
+                    <div class="case-text">
+                        <h2>จัดลำดับความสำคัญฟีเจอร์ (Impact–Effort Matrix)</h2>
+                        <h3>เป้าหมายฝั่งแอดมิน</h3>
+                        <p>มีเครื่องมือให้แอดมินจัดการ การจอง บริการ และข้อมูลลูกค้า ได้ง่ายขึ้น และพัฒนาการทำงานของธุรกิจด้วย ข้อมูลเชิงลึก + ฟีดแบ็ก</p>
+                        <h4>Easy Wins (ผลกระทบสูง–ทำง่าย):</h4>
+                        <ul class="persona-basic">
+                            <li>จัดการการจองรายวัน </li>
+                            <li>ติดตามความพร้อมของพนักงานและสถานะงาน</li>
+                            <li>รายงานรายวันและรีวิวลูกค้า</li>
+                            <li>แก้ไขบริการ / ออกใบเสร็จ</li>
+                        </ul>
+
+                        <h3>Big Bets (ผลกระทบสูง–ทำยาก):</h3>
+                        <ul class="persona-basic">
+                            <li>จัดการข้อมูลลูกค้าและพนักงาน</li>
+                            <li>สร้างโปรโมชัน/ส่วนลด</li>
+                            <li>โทรหาลูกค้าจากในระบบได้เลย</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!--Section Text-->
+                <article class="case-section no-media">
+                    <div class="case-text">
+                        <h2>Step 4 Prototype</h2>
+                        <h3>Information Architecture flow</h3>
+                        <h4>User Information Architecture</h4>
+                        <p>
+                            หลังจากคัดเลือกและจัดลำดับฟีเจอร์แล้ว ขั้นต่อไปคือแปลงฟีเจอร์เหล่านั้นเป็น โฟลว์ IA 
+                            เพื่อให้เห็นภาพว่าแต่ละฟีเจอร์จะถูกจัดวางในระบบอย่างไร และผู้ใช้จะเดินทางใช้งานในแพลตฟอร์มแบบไหน
+                        </p>
+                        <img src="IA User.png" alt="Prototype">
+                    </div>
+                </article>
+
+                <!--Section 10-->
+                <article class="case-section persona-section">
+                    <figure class="case-media persona-media">
+                        <img src="IA flow User.png" alt="Prototype">
+                    </figure>
+
+                    <div class="case-text">
+                        <h2>เป้าหมาย IA ฝั่งผู้ใช้</h2>
+                        <p>
+                            <strong>ชัดเจน</strong> : ผู้ใช้เข้าใจบริการและใช้งานได้ง่าย ไม่สับสน<br>
+
+                            <strong>สะดวก</strong> : ลดขั้นตอนที่ติดขัดในการจอง จ่ายเงิน และรีวิว<br>
+
+                            <strong>น่าเชื่อถือ</strong> : แสดงรายละเอียดบริการ ราคา และข้อมูลช่างอย่างโปร่งใส
+                        </p>
+                        <h4>ตัวอย่างหมวดเมนูของ IA User:</h4>
+                        <ul class="persona-basic">
+                            <li><strong>Home</strong> : ภาพรวม/ส่วนหัวหลักและปุ่มเรียกให้ทำงาน</li>
+                            <li><strong>Services</strong> :รายการบริการ</li>
+                            <li><strong>Booking</strong> :เลือกบริการ เวลา สถานที่ ข้อมูลรถ และวิธีชำระเงิน</li>
+                            <li><strong>Order Summary / Confirmation</strong> :สรุปรายละเอียดการจอง + ใบเสร็จ/การยืนยัน</li>
+                            <li><strong>My Bookings</strong> :สถานะและประวัติการจอง</li>
+                            <li><strong>Reviews</strong> :อ่าน/เขียนรีวิวบริการ</li>
+                            <li><strong>Profile</strong> :แก้ไขข้อมูลส่วนตัว ดูแต้มสะสม และตั้งค่า</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!--Section Text-->
+                <article class="case-section no-media">
+                    <div class="case-text">
+                        <h4>Admin Information Architecture</h4>
+                        <p>
+                            ตัวอย่าง Flow ของฝั่ง Admin
+                        </p>
+                        <img src="IA Admin.png" alt="Prototype">
+                    </div>
+                </article>
+
+                <!--Section 11-->
+                <article class="case-section persona-section">
+                    <figure class="case-media persona-media">
+                        <img src="IA Admin flow.png" alt="Prototype">
+                    </figure>
+
+                    <div class="case-text">
+                        <h2>เป้าหมาย IA ฝั่งแอดมิน</h2>
+                        <p>
+                            <strong>ทำงานไว</strong> : จัดการการจองและบริการได้ลื่นไหล<br>
+
+                            <strong>รวมข้อมูลไว้ที่เดียว</strong> : จัดระเบียบข้อมูลลูกค้าและช่างให้เข้าถึงง่าย<br>
+
+                            <strong>มีข้อมูลเชิงลึก</strong> : ดูรายงานและฟีดแบ็กเพื่อพัฒนาคุณภาพบริการ
+                        </p>
+                        <h4>ตัวอย่างหมวดเมนูของ IA Admin:</h4>
+                        <ul class="persona-basic">
+                            <li><strong>Dashboard</strong> : ภาพรวมการจองวันนี้ + สถิติสำคัญ</li>
+                            <li><strong>Bookings Management</strong> :ดู/แก้ไข/มอบหมายงานนัดหมาย</li>
+                            <li><strong>Customer Data</strong> :โปรไฟล์ลูกค้าและประวัติการใช้บริการ</li>
+                            <li><strong>Technician Availability</strong> :เช็คความพร้อมช่าง มอบหมายงาน ติดตามสถานะ</li>
+                            <li><strong>Services & Pricing Editor</strong> :ปรับบริการและราคาได้ตลอด</li>
+                            <li><strong>Promotion Manager</strong> :สร้างและตั้งเวลาโปรโมชัน</li>
+                            <li><strong>Daily Reports</strong> :รายรับ ประวัติการจอง และติดตามฟีดแบ็ก</li>
+                            <li><strong>Settings</strong> :จัดการข้อมูลธุรกิจ ช่องทางติดต่อ และข้อมูลล็อกอิน</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--UI Preview Strip-->
+<section class="section ui-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>UI Screens</h2>
+    </div>
+
+    <div class="ui-slider">
+      <div class="ui-track">
+        <div class="ui-slide">
+            <div class="ui-slide-frame">
+                <img src="UI1.png" alt="UI Screen 1">
+            </div>
+        </div>
+        <div class="ui-slide">
+            <div class="ui-slide-frame">
+                <img src="UI2.png" alt="UI Screen 2">
+            </div>
+        </div>
+        <div class="ui-slide">
+            <div class="ui-slide-frame">
+                <img src="UI3.png" alt="UI Screen 3">
+            </div>
+        </div>
+        <div class="ui-slide">
+            <div class="ui-slide-frame">
+                <img src="UI4.png" alt="UI Screen 4">
+            </div>
+        </div>
+        <div class="ui-slide">
+            <div class="ui-slide-frame">
+                <img src="UI5.png" alt="UI Screen 5">
+            </div>
+        </div>
+        <div class="ui-slide">
+            <div class="ui-slide-frame">
+                <img src="UI6.png" alt="UI Screen 6">
+            </div>
+        </div>
+        <div class="ui-slide">
+            <div class="ui-slide-frame">
+                <img src="UI7.png" alt="UI Screen 7">
+            </div>
+        </div>
+        <div class="ui-slide">
+            <div class="ui-slide-frame">
+                <img src="UI8.png" alt="UI Screen 8">
+            </div>
+        </div>    
+      </div>
+
+      <!-- ปุ่มลูกศรเอาเข้ามาอยู่ใน .ui-slider -->
+      <button class="ui-arrow ui-prev" aria-label="Previous slide">‹</button>
+      <button class="ui-arrow ui-next" aria-label="Next slide">›</button>
+
+      <!-- จุดบอกตำแหน่งสไลด์ -->
+      <div class="ui-dots"></div>
+    </div>
+  </div>
+</section>
+
+<section class="case-body">
+    <div class="container case-sections">
+
+        <article class="case-section no-media">
+            <div class="case-text">
+                <h2>UI Design</h2>
+                    <p>
+                        ของงานนี้เน้นหน้าตาที่ สะอาด ทันสมัย ใช้งานง่าย และ รองรับทุกอุปกรณ์ (Responsive) เป็นหลัก
+                    </p>
+                <h3>โดยแบ่งการออกแบบเป็นดังนี้</h3>
+                    <ul class="persona-basic">
+                        <li><strong>โทนสี</strong>: ใช้สีน้ำเงินหลัก #3588FC เพื่อภาพลักษณ์แบรนด์, สีเขียวอมฟ้า (teal) #14B89E สำหรับปุ่ม Call-to-Action ให้เด่น และใช้เทา/ขาวเป็นสีพื้นหลังเพื่ออ่านง่าย</li>
+                        <li><strong>ตัวอักษร</strong>: ใช้ฟอนต์ Noto Sans Thai UI อย่างสม่ำเสมอ พร้อมขนาด/น้ำหนักที่ชัดเจนเพื่อสร้างลำดับชั้นข้อมูล (Hierarchy) ให้กวาดอ่านได้ไว</li>
+                        <li><strong>เลย์เอาต์</strong>: ใช้ Grid-based layout เช่น Hero 2 คอลัมน์ และการ์ดฟีเจอร์/รีวิว 3 คอลัมน์ รองรับมือถือโดยยุบเป็น 1 คอลัมน์ และเมนูเปลี่ยนเป็น Hamburger</li>
+                        <li><strong>คอมโพเนนต์</strong>: สไตล์คงที่ เช่นการ์ดมุมโค้ง และดีไซน์ปุ่มที่ไปในทิศทางเดียวกัน</li>
+                        <li><strong>ประสบการณ์ผู้ใช้ (UX)</strong>: เน้นปุ่ม CTA ที่ชัด และการไหลของข้อมูลเป็นเหตุเป็นผล ทำให้ใช้งานแล้วเข้าใจง่ายและดูสวยน่าใช้</li>
+                    </ul>
+            </div>
+        </article>
+
+        <article class="case-section persona-section">
+            <figure class="case-media persona-media">
+                <img src="Design System.png" alt="Design System">
+            </figure>
+
+                <div class="case-text">
+                    <h2>Design System</h2>
+                        <p>
+                            ผมออกแบบให้ สม่ำเสมอและ Responsive ใช้งานได้ดีทั้งเดสก์ท็อป แท็บเล็ต และมือถือ
+                        </p>
+                    <ul class="persona-basic">
+                        <li><strong>ฟอนต์</strong> : ใช้ Noto Sans Thai UI ทุกหน้าจอ เพื่อความอ่านง่ายและดูทันสมัย</li>
+                        <li><strong>Typography</strong> :ปรับสเกลตามอุปกรณ์ เช่น H1 36px บนเดสก์ท็อป / 24px บนมือถือ</li>
+                        <li><strong>ชุดสี</strong> :Primary: #3588FC Secondary: #41528C Accent/ปุ่ม: #0D947F  </li>
+                        <li><strong>ปุ่ม</strong> :มีทั้ง Primary/Secondary รองรับทุกอุปกรณ์ พร้อมสถานะ Default / Hover / Focused / Disabled</li>
+                        <li><strong>ช่องกรอกข้อมูล</strong> :มีป้ายกำกับชัดเจน พร้อมสถานะ Focus / Error / Disabled และปรับขนาดให้เหมาะกับแต่ละอุปกรณ์</li>
+                        <li><strong>เลย์เอาต์</strong> :ความกว้างสูงสุด 1296px (เดสก์ท็อป) ปรับ padding อัตโนมัติบนแท็บเล็ต/มือถือ</li>
+                    </ul>
+                </div>
+        </article>
+
+    </div>
+
+</section>
+
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span>© 2025 Sakdidet • Portfolio</span>
+            <span> Made with HTML &amp; CSS</span>
+        </div>
+    </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  /* =========================
+     1) สลับ layout ของ case-section
+     ========================== */
+  const mediaSections = Array.from(
+    document.querySelectorAll('.case-section')
+  ).filter(sec =>
+    !sec.classList.contains('no-media') &&
+    !sec.classList.contains('case-section--full')
+  );
+
+  mediaSections.forEach((sec, idx) => {
+
+    sec.classList.toggle('is-reverse', idx % 2 === 1);
+  });
+
+  const allSections = document.querySelectorAll('.case-section');
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('in-view');
+
+            obs.unobserve(entry.target);
+        }
+    });
+    }, {
+        threshold:0.2
+  });
+
+  allSections.forEach(sec => observer.observe(sec));
+
+  /* =========================
+     2) UI Slider + Auto slide
+     ========================== */
+  const slider = document.querySelector('.ui-slider');
+  if (!slider) return;
+
+  const track   = slider.querySelector('.ui-track');
+  const slides  = Array.from(track.querySelectorAll('.ui-slide'));
+  const prevBtn = slider.querySelector('.ui-prev');
+  const nextBtn = slider.querySelector('.ui-next');
+  const dotsWrap = slider.querySelector('.ui-dots');
+
+  
+  if (!track || !slides.length || !prevBtn || !nextBtn || !dotsWrap) return;
+
+  const total = slides.length;
+  let current = 0;
+  let timer = null;
+  const INTERVAL = 2800; 
+
+
+  slides.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'ui-dot' + (i === 0 ? ' active' : '');
+    dot.dataset.index = i;
+
+    dot.addEventListener('click', () => {
+      goToSlide(i);
+      resetAuto();
+    });
+
+    dotsWrap.appendChild(dot);
+  });
+
+  const dots = Array.from(dotsWrap.querySelectorAll('.ui-dot'));
+
+  function goToSlide(index) {
+    current = (index + total) % total;              
+    track.style.transform = `translateX(-${current * 100}%)`;
+
+    dots.forEach((dot, i) => {
+      dot.classList.toggle('active', i === current);
+    });
+  }
+
+  function nextSlide() { goToSlide(current + 1); }
+  function prevSlide() { goToSlide(current - 1); }
+
+  nextBtn.addEventListener('click', () => {
+    nextSlide();
+    resetAuto();
+  });
+
+  prevBtn.addEventListener('click', () => {
+    prevSlide();
+    resetAuto();
+  });
+
+  function startAuto() {
+    if (timer) return;
+    timer = setInterval(nextSlide, INTERVAL);
+  }
+
+  function stopAuto() {
+    if (!timer) return;
+    clearInterval(timer);
+    timer = null;
+  }
+
+  function resetAuto() {
+    stopAuto();
+    startAuto();
+  }
+
+
+  slider.addEventListener('mouseenter', stopAuto);
+  slider.addEventListener('mouseleave', startAuto);
+
+
+  goToSlide(0);
+  startAuto();
+});
+</script>
+
+
+</body>
+</html>

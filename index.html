@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio – Sakdidet</title>
     <link rel="stylesheet" href="portfolio.css">
@@ -32,8 +32,8 @@
         <section id="hero" class="hero">
             <div class="container hero-inner">
                 <div class="hero-text">
-                    <p class="hero-eyebrown">Hello, I’m Sakdidet 👋</p>
-                    <h1>UX/UI Designer</h1>
+                    <p class="hero-eyebrow">Hello, I’m Sakdidet 👋</p>
+                    <h2>UX/UI Designer</h2>
                     <p class="hero-subtitle">
 
                     </p>
@@ -86,7 +86,7 @@
                     <h2>Experience</h2>
                 </header>
 
-                <div class="exp wrapper">
+                <div class="exp-wrapper">
                     <div class="exp-card">
                         <div class="exp-timeline">
                         <div class="exp-item">
@@ -202,10 +202,12 @@
                     <h2>Projcet</h2>
                 </header>
                 
-                <div class="project-grid">
+                <!--Page 1-->
+                <div class="project-grid project-page is-active" data-page="1">
 
                     <!--Project1-->
-                    <article class="project-card">
+                    <article class="project-card"
+                        data-link="index-project-clean_near_u.html">
                         <!--Image-->
                         <div class="project-thumb">
                             <img src="project1.png" alt="name"/>
@@ -213,26 +215,26 @@
                         <!--Text-->
                         <div class="project-body">
                             <h3>Case Study Clean near U</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, mollitia tenetur. 
-                                Culpa magnam impedit ut sint, dolorem fugit ullam. Facilis tempore quasi, 
-                                minima voluptas consectetur placeat modi fugit non consequatur!
+                            <p class="project-desc">
+                            แอพDelivery Food สำหรับคนที่รักสุขภาพแต่ไม่มีเวลารวมไปถึงฟีเจอร์ที่คำนวณTDEEแคลเลอรี่ที่กินต่อวัน
+                            โดยคำนวณจาก อายุ เพศ ส่วนสูง น้ำหนัก การขยับร่างกายต่อวัน
                             </p>
-                            <strong>Role:UX/UI Designer</strong>
+                            <strong class="project-role">Role:UX/UI Designer</strong>
                             <p class="project-tags">
                                 <span class="project-tag">Figma</span>
                                 <span class="project-tag">Figjam</span>
                             </p>
                         </div>
                         <div class="project-footer">
-                            <a href="project-clean-near-u.html" class="btn btn-outline">
+                            <a href="index-project-clean_near_u.html" class="btn btn-outline">
                                 View more
                             </a>
                         </div>
                     </article>
 
                     <!--Project2-->
-                    <article class="project-card">
+                    <article class="project-card"
+                        data-link="index-project-washi-detail.html">
                         <!--Image-->
                         <div class="project-thumb">
                             <img src="project2.png" alt="name"/>
@@ -240,13 +242,11 @@
                         <!--Text-->
                         <div class="project-body">
                             <h3>Washi Carcare Wash</h3>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Veritatis blanditiis quia qui, ullam, exercitationem eos aut eligendi, 
-                                eius modi cum ipsum molestias architecto fugiat accusantium quaerat laborum? Fuga, 
-                                nobis odio.
+                            <p class="project-desc">
+                            เป็นโปรเจ็คที่มีปัญหาของคนที่อาศัยตามหอพักคอนโดที่มีพื้นที่จำกัดหรือคนที่ยังไม่ชำนาญการล้าง
+                            รวมไปถึงไม่มีเวลาล้างและไม่อยากลงทุนกับอุปกรณ์ล้างรถแบบแพงๆ
                             </p>
-                            <strong>
+                            <strong class="project-role">
                                 Role:UX/UI Designer
                             </strong> 
                             <p class="project-tags">
@@ -263,25 +263,26 @@
                     </article>
 
                     <!--Project3-->
-                    <article class="project-card">
+                    <article class="project-card"
+                        data-link="#">
                         <!--Image-->
                         <div class="project-thumb">
-                            <img src="project3.png" alt="name"/>
+                            <img src="project6.png" alt="name"/>
                         </div>
                         <!--Text-->
                         <div class="project-body">
-                            <h3>Second hand market</h3>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Veritatis blanditiis quia qui, ullam, exercitationem eos aut eligendi, 
-                                eius modi cum ipsum molestias architecto fugiat accusantium quaerat laborum? Fuga, 
-                                nobis odio.
+                            <h3>Wedding IMPACT</h3>
+                            <p class="project-desc">
+                                โปรเจ็คนี่เกี่ยวกับการจัดการอุปกรณ์ในการจัดงานแต่งของลูกค้าโดยให้ลูกค้าเลือกอุปกรณ์รูปแบบสถานที่จัดงาน
+                                และยังทำเป็นลิสต์รายการเพื่อทำการติดต่อกับแผนกอื่นที่เกี่ยวข้องกับงานแต่งได้ด้วยโดยโปรเจ็คนี้ได้รับรางวัล Poppular Vote
+                                การแข่งขันภายในของ IMPACT คือ R2i
                             </p>
-                            <strong>
+                            <strong class="project-role">
                                 Role:UX/UI Designer
                             </strong>
                             <p class="project-tags">
                                 <span class="project-tag">Figma</span>
+                                <span class="project-tag">Figjam</span>
                             </p>
                         </div>
                         <div class="project-footer">
@@ -290,8 +291,163 @@
                             </a>
                         </div>
                     </article>
-
                 </div>
+
+                <!--Page 2-->
+                <div class="project-grid project-page" data-page="2">
+                    <article class="project-card">
+                        <div class="project-thumb">
+                            <img src="project4.png" alt="name">
+                        </div>
+                        <div class="project-body">
+                            <h3>Flexibel Benefit</h3>
+                            <p class="project-desc">
+                                เป็นโปรเจ็คตอนที่ฝึกงานที่ IMPACT Exhibition Management Co,.Ltd <br>
+                                เกี่ยวกับการให้พนักงานในองค์กรจัดการเรื่องสวัสดิการที่ตัวพนักงานสนใจได้โดยตนเองและยังเป็นการโปรโมทการใช้สวัสดิการไปในตัว
+                                เพราะจะมีการนำเหรียญที่พนักงานไปสะสมไปแลกกับสวัสดิการได้
+                            </p>
+                            <strong class="project-role">
+                                Role: UX/UI Designer
+                            </strong>
+                            <p class="project-tags">
+                                <span class="project-tag">Figma</span>
+                                <span class="project-tag">Information Architecture</span>
+                                <span class="project-tag">Usability Testing</span>
+                                <span class="project-tag">Figjam</span>
+                                <span class="project-tag">User Reserach</span>
+                                <span class="project-tag">Power BI</span>
+                            </p>
+                            <div class="project-footer">
+                                <a href="#" class="btn btn-outline">
+                                    View More
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-thumb">
+                            <img src="project5.png" alt="name">
+                        </div>
+                        <div class="project-body">
+                            <h3>IMPACT Hire Hub</h3>
+                            <p class="project-desc">
+                                เป็นโปรเจ็คที่ออกแบบช่องทางที่จะคนภายในที่สนใจตำแหน่งงานที่ IMPACT ไม่ว่าจะเป็นFull Time หรือ Part Time 
+                                รวมถึงการออกแบบที่รองรับทั้ง3หน้าจอของแต่ละอุปกรณ์ไม่ว่าจะเป็น Mobile Tablet Desktop
+                            </p>
+                            <strong class="project-role">
+                                Role: UX/UI Designer
+                            </strong>
+                            <p class="project-tags">
+                                <span class="project-tag">Figma</span>
+                                <span class="project-tag">Figjam</span>
+                                <span class="project-tag">Auto Layout</span>
+                                <span class="project-tag">Design System</span>
+                            </p>
+                            <div class="project-footer">
+                                <a href="#" class="btn btn-outline">
+                                    View More
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-thumb">
+                            <img src="project3.png" alt="name">
+                        </div>
+                        <div class="project-body">
+                            <h3>Wedding IMPACT</h3>
+                            <p class="project-desc">
+                                เป็นผลงานทางด้าน UX/UI ชิ้นแรกที่ผมเริ่มมาศึกษาทางด้านนี้ทำให้เกิดเป็นแรงบันดาลใจในการศึกษาเรื่องนี้ต่อไป
+                            </p>
+                            <strong class="project-role">
+                                Role: UX/UI Designer
+                            </strong>
+                            <p class="project-tags">
+                                <span class="project-tag">Figma</span>
+                            </p>
+                            <div class="project-footer">
+                                <a href="#" class="btn btn-outline">
+                                    View More
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!--Page 3-->
+                <div class="project-grid project-page" data-page="3">
+                    <article class="project-card">
+                        <div class="project-thumb">
+                            <img src="#" alt="name">
+                        </div>
+                        <div class="project-body">
+                            <h3>Project 4 title</h3>
+                            <p class="project-desc">Text</p>
+                            <strong class="project-role">
+                                Role: UX/UI Designer
+                            </strong>
+                            <p class="project-tags">
+                                <span class="project-tag">Text</span>
+                                <span class="project-tag">Text</span>
+                                <span class="project-tag">Text</span>
+                            </p>
+                            <div class="project-footer">
+                                <a href="#" class="btn btn-outline">
+                                    View More
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-thumb">
+                            <img src="#" alt="name">
+                        </div>
+                        <div class="project-body">
+                            <h3>Project 5 title</h3>
+                            <p class="project-desc">Text</p>
+                            <strong class="project-role">
+                                Role: UX/UI Designer
+                            </strong>
+                            <p class="project-tags">
+                                <span class="project-tag">Text</span>
+                                <span class="project-tag">Text</span>
+                                <span class="project-tag">Text</span>
+                            </p>
+                            <div class="project-footer">
+                                <a href="#" class="btn btn-outline">
+                                    View More
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-thumb">
+                            <img src="#" alt="name">
+                        </div>
+                        <div class="project-body">
+                            <h3>Project 6 title</h3>
+                            <p class="project-desc">Text</p>
+                            <strong class="project-role">
+                                Role: UX/UI Designer
+                            </strong>
+                            <p class="project-tags">
+                                <span class="project-tag">text</span>
+                                <span class="project-tag">text</span>
+                                <span class="project-tag">text</span>
+                            </p>
+                            <div class="project-footer">
+                                <a href="#" class="btn btn-outline">
+                                    View More
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
 
                     <div class="project-action">
                         <a href="index-project.html" class="btn btn-primary">View Project</a>
@@ -299,11 +455,11 @@
 
                     <!--Page Navigation-->
                      <nav class="pagination">
-                        <a href="#" class="page-btn disabled">Prev</a>
-                        <a href="#" class="page-btn active">1</a>
-                        <a href="#" class="page-btn">2</a>
-                        <a href="#" class="page-btn">3</a>
-                        <a href="#" class="page-btn">Next</a>
+                        <button type="button" class="page-btn page-prev">Prev</button>
+                        <button type="button" class="page-btn active" data-page="1">1</button>
+                        <button type="button" class="page-btn" data-page="2">2</button>
+                        <button type="button" class="page-btn" data-page="3">3</button>
+                        <button type="button" class="page-btn page-next">Next</button>
                     </nav>
             </div>
         </section>
@@ -356,7 +512,9 @@
         </div>
     </footer>
 
-        <script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // ====== โปรไฟล์ coin & click project card (ของเดิม) ======
   const profileImages = [
     'profiles-1.png',
     'profiles-2.png',
@@ -368,23 +526,107 @@
   const front  = document.querySelector('.face.front');
   const back   = document.querySelector('.face.back');
 
-
   let index = 0;
 
-
-  front.src = profileImages[index];                
-  back.src  = profileImages[(index + 1) % profileImages.length]; 
-
-
-  coin.addEventListener('animationiteration', () => {
-
-    index = (index + 2) % profileImages.length;
-
+  if (front && back && coin) {
     front.src = profileImages[index];
     back.src  = profileImages[(index + 1) % profileImages.length];
+
+    coin.addEventListener('animationiteration', () => {
+      index = (index + 2) % profileImages.length;
+      front.src = profileImages[index];
+      back.src  = profileImages[(index + 1) % profileImages.length];
+    });
+  }
+
+  const projectCards = document.querySelectorAll('.project-card');
+
+  projectCards.forEach(card => {
+    const url = card.dataset.link;
+    if (!url) return;
+
+    card.style.cursor = 'pointer';
+
+    card.addEventListener('click', (e) => {
+      if (e.target.closest('a')) return;
+      window.location.href = url;
+    });
   });
+
+
+  // ====== Pagination สำหรับ .project-page ======
+  const pages = Array.from(document.querySelectorAll('.project-page'));
+  const pageNumberBtns = Array.from(
+    document.querySelectorAll('.pagination .page-btn[data-page]')
+  );
+  const prevBtn = document.querySelector('.pagination .page-prev');
+  const nextBtn = document.querySelector('.pagination .page-next');
+
+  if (!pages.length || !pageNumberBtns.length) return;
+
+  let currentPage = 1;
+  const maxPage = pages.length;
+
+  function showPage(page) {
+    console.log('go to page:', page);
+    if (page < 1) page = 1;
+    if (page > maxPage) page = maxPage;
+    currentPage = page;
+
+    // สลับ .is-active ที่ block project-page
+    pages.forEach(p => {
+      const pIndex = parseInt(p.dataset.page, 10);
+      p.classList.toggle('is-active', pIndex === currentPage);
+    });
+
+    // อัพเดตสถานะปุ่มเลข
+    pageNumberBtns.forEach(btn => {
+      const btnPage = parseInt(btn.dataset.page, 10);
+      btn.classList.toggle('active', btnPage === currentPage);
+    });
+
+    // เปิด/ปิด Prev, Next
+    if (prevBtn) {
+      prevBtn.classList.toggle('disabled', currentPage === 1);
+    }
+    if (nextBtn) {
+      nextBtn.classList.toggle('disabled', currentPage === maxPage);
+    }
+  }
+
+  // คลิกเลขหน้า
+  pageNumberBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const btnPage = parseInt(btn.dataset.page, 10);
+      if (!isNaN(btnPage)) {
+        showPage(btnPage);
+      }
+    });
+  });
+
+  // คลิก Prev / Next
+  if (prevBtn) {
+    prevBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (prevBtn.classList.contains('disabled')) return;
+      showPage(currentPage - 1);
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (nextBtn.classList.contains('disabled')) return;
+      showPage(currentPage + 1);
+    });
+  }
+
+  // โหลดมาหน้าแรกก่อน
+  showPage(1);
+});
 </script>
 
-</body>
 
+</body>
 </html>

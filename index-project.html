@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Project</title>
     <link rel="stylesheet" href="portfolio.css">
@@ -29,30 +29,52 @@
     <!--Main-->
     <main>
 
-        <section class="section section-gray">
+        <header class="section section-gray">
             <div class="container">
                 <header class="section-header">
                     <h2>All Project</h2>
                 </header>
-            </div>
-        </section>
+        </header>
+
+
+        </div>
 
         <!--Grid Card-->
         <section id="section" class="section">
             <div class="container">
-                <div class="project-grid">
+            <!--Sort bar-->
+            <div class="project-toolbar">
+            <span class="project-count"></span>
+
+            <div class="sort-control">
+                <label for="sort-projects">Sort by</label>
+                <select id="sort-projects" class="sort-select">
+                    <option value="newest">ใหม่สุด</option>
+                    <option value="oldest">เก่าสุด</option>
+                    <option value="atoz">A → Z</option>
+                    <option value="ztoa">Z → A</option>
+                </select> 
+            </div>
+            </div>
+                <div class="project-grid" id="projectGrid">
                     <!--Card 1-->
-                    <article class="project-card">
+                    <article class="project-card"
+                        data-date="2025-06-05"
+                        data-title="Washi Carcare Service"
+                        data-link="index-project-washi-detail.html">
+
                         <!--Picture-->
                         <div class="project-thumb">
-                            <img src="#" alt="name">
+                            <img src="project7.png" alt="name">
                         </div>
 
                         <!--Body-->
                         <div class="project-body">
-                            <h3>Name Prject</h3>
-                            <p>!5 lorem</p>
-                            <strong>Role:UX/UI Designer</strong>
+                            <h3>Washi Carcare Service & Webdev</h3>
+                            <p class="project-desc">เป็นโปรเจ็คที่มีปัญหาของคนที่อาศัยตามหอพักคอนโดที่มีพื้นที่จำกัดหรือคนที่ยังไม่ชำนาญการล้าง
+                                รวมไปถึงไม่มีเวลาล้างและไม่อยากลงทุนกับอุปกรณ์ล้างรถแบบแพงๆ
+                            </p>
+                            <strong class="project-role">Role:UX/UI Designer</strong>
                             <p class="project-tags">
                                 <span class="project-tag">Figma</span>
                                 <span class="project-tag">Figjam</span>
@@ -61,24 +83,29 @@
 
                         <!--Footer-->
                         <div class="project-footer">
-                            <a href="project-clean-near-u.html" class="btn btn-outline">
+                            <a href="index-project-washi-detail.html" class="btn btn-outline">
                                 View more
                             </a>
                         </div>
                     </article>
 
                     <!--Card 2-->
-                    <article class="project-card">
+                    <article class="project-card"
+                        data-date="2025-04-10"
+                        data-title="Clean near U"
+                        data-link="index-project-clean_near_u.html">
                         <!--Picture-->
                         <div class="project-thumb">
-                            <img src="#" alt="name">
+                            <img src="project8.png" alt="name">
                         </div>
 
                         <!--Body-->
                         <div class="project-body">
-                            <h3>Name Project</h3>
-                            <p>!5 lorem</p>
-                            <strong>Role:UX/UI Designer</strong>
+                            <h3>Clean near U</h3>
+                            <p class="project-desc">แอพDelivery Food สำหรับคนที่รักสุขภาพแต่ไม่มีเวลารวมไปถึงฟีเจอร์ที่คำนวณTDEEแคลเลอรี่ที่กินต่อวัน
+                                โดยคำนวณจาก อายุ เพศ ส่วนสูง น้ำหนัก การขยับร่างกายต่อวัน
+                            </p>
+                            <strong class="project-role">Role:UX/UI Designer</strong>
                             <p class="project-tags">
                                 <span class="project-tag">Figma</span>
                                 <span class="project-tag">Figjam</span>
@@ -87,24 +114,30 @@
 
                         <!--Footer-->
                         <div class="project-footer">
-                            <a href="project-clean-near-u.html" class="btn btn-outline">
+                            <a href="index-project-clean_near_u.html" class="btn btn-outline">
                                 View more
                             </a>
                         </div>
                     </article>
 
                     <!--Card 3-->
-                    <article class="project-card">
+                    <article class="project-card"
+                        data-date="2024-11-25"
+                        data-title="Wedding IMPACT">
                         <!--Picture-->
                         <div class="project-thumb">
-                            <img src="#" alt="name">
+                            <img src="project6.png" alt="name">
                         </div>
 
                         <!--Body-->
                         <div class="project-body">
-                            <h3>Name Project</h3>
-                            <p>!5 lorem</p>
-                            <strong>Role:UX/UI Designer</strong>
+                            <h3>Wedding IMPACT</h3>
+                            <p class="project-desc">
+                                โปรเจ็คนี่เกี่ยวกับการจัดการอุปกรณ์ในการจัดงานแต่งของลูกค้าโดยให้ลูกค้าเลือกอุปกรณ์รูปแบบสถานที่จัดงาน
+                                และยังทำเป็นลิสต์รายการเพื่อทำการติดต่อกับแผนกอื่นที่เกี่ยวข้องกับงานแต่งได้ด้วยโดยโปรเจ็คนี้ได้รับรางวัล Poppular Vote
+                                การแข่งขันภายในของ IMPACT คือ R2i
+                            </p>
+                            <strong class="project-role">Role:UX/UI Designer</strong>
                             <p class="project-tags">
                                 <span class="project-tag">Figma</span>
                                 <span class="project-tag">Figjam</span>
@@ -120,20 +153,30 @@
                     </article>
 
                     <!--Card 4-->
-                    <article class="project-card">
+                    <article class="project-card"
+                        data-date="2024-07-25"
+                        data-title="Flexibel Benefit">
                         <!--Picture-->
                         <div class="project-thumb">
-                            <img src="#" alt="name">
+                            <img src="project4.png" alt="Flexibel Benefit">
                         </div>
 
                         <!--Body-->
                         <div class="project-body">
-                            <h3>Name Project</h3>
-                            <p>!5 lorem</p>
-                            <strong>Role:UX/UI Designer</strong>
+                            <h3>Flexibel Benefit</h3>
+                            <p class="project-desc">
+                            เป็นโปรเจ็คตอนที่ฝึกงานที่ IMPACT Exhibition Management Co,.Ltd <br>
+                            เกี่ยวกับการให้พนักงานในองค์กรจัดการเรื่องสวัสดิการที่ตัวพนักงานสนใจได้โดยตนเองและยังเป็นการโปรโมทการใช้สวัสดิการไปในตัว
+                            เพราะจะมีการนำเหรียญที่พนักงานไปสะสมไปแลกกับสวัสดิการได้
+                            </p>
+                            <strong class="project-role">Role:UX/UI Designer</strong>
                             <p class="project-tags">
-                                <span class="project-tag"></span>
-                                <span class="project-tag"></span>
+                                <span class="project-tag">Figma</span>
+                                <span class="project-tag">Information Architecture</span>
+                                <span class="project-tag">Usability Testing</span>
+                                <span class="project-tag">Figjam</span>
+                                <span class="project-tag">User Reserach</span>
+                                <span class="project-tag">Power BI</span>
                             </p>
                         </div>
 
@@ -146,20 +189,27 @@
                     </article>
 
                     <!--Card 5-->
-                    <article class="project-card">
+                    <article class="project-card"
+                        data-date="2024-03-02"
+                        data-title="IMPACT Hire Hub">
                         <!--Picture-->
                         <div class="project-thumb">
-                            <img src="#" alt="name">
+                            <img src="project5.png" alt="IMPACT Hire Hub">
                         </div>
 
                         <!--Body-->
                         <div class="project-body">
-                            <h3>Name Project</h3>
-                            <p>!5 lorem</p>
-                            <strong>Role:UX/UI Designer</strong>
+                            <h3>IMPACT Hire Hub</h3>
+                            <p class="project-desc">
+                                เป็นโปรเจ็คที่ออกแบบช่องทางที่จะคนภายในที่สนใจตำแหน่งงานที่ IMPACT ไม่ว่าจะเป็นFull Time หรือ Part Time 
+                                รวมถึงการออกแบบที่รองรับทั้ง3หน้าจอของแต่ละอุปกรณ์ไม่ว่าจะเป็น Mobile Tablet Desktop
+                            </p>
+                            <strong class="project-role">Role:UX/UI Designer</strong>
                             <p class="project-tags">
-                                <span class="project-tag"></span>
-                                <span class="project-tag"></span>
+                                <span class="project-tag">Figma</span>
+                                <span class="project-tag">Figjam</span>
+                                <span class="project-tag">Auto Layout</span>
+                                <span class="project-tag">Design System</span>
                             </p>
                         </div>
 
@@ -169,23 +219,25 @@
                                 View More
                             </a>
                         </div>
+
                     </article>
 
                     <!--Card 6-->
-                    <article class="project-card">
+                    <article class="project-card"
+                        data-date="2022-10-31"
+                        data-title="Second-hand-market">
                         <!--Picture-->
                         <div class="project-thumb">
-                            <img src="#" alt="name">
+                            <img src="project3.png" alt="Second-hand-market">
                         </div>
 
                         <!--Body-->
                         <div class="project-body">
-                            <h3>Name Project</h3>
-                            <p>!5 lorem</p>
-                            <strong>Role:UX/UI Designer</strong>
+                            <h3>Second hand market</h3>
+                            <p class="project-desc">เป็นผลงานทางด้าน UX/UI ชิ้นแรกที่ผมเริ่มมาศึกษาทางด้านนี้ทำให้เกิดเป็นแรงบันดาลใจในการศึกษาเรื่องนี้ต่อไป</p>
+                            <strong class="project-role">Role:UX/UI Designer</strong>
                             <p class="project-tags">
-                                <span class="project-tag"></span>
-                                <span class="project-tag"></span>
+                                <span class="project-tag">Figma</span>
                             </p>
                         </div>
 
@@ -209,6 +261,70 @@
         </div>
     </footer>
 
-</body>
+<script>
+//=======Sort By======
+  const grid = document.querySelector('#projectGrid');
+  const cards = Array.from(grid.querySelectorAll('.project-card'));
 
+  const sortSelect = document.querySelector('#sort-projects');
+
+  // เวลาเปลี่ยนค่าจาก select ให้เรียงใหม่
+  sortSelect.addEventListener('change', () => {
+    const type = sortSelect.value; // newest / oldest / atoz / ztoa
+    sortCards(type);
+  });
+
+  function sortCards(type) {
+    const sorted = [...cards].sort((a, b) => {
+      const dateA = new Date(a.dataset.date);
+      const dateB = new Date(b.dataset.date);
+      const titleA = (a.dataset.title || '').toLowerCase();
+      const titleB = (b.dataset.title || '').toLowerCase();
+
+      if (type === 'newest') {
+        // ใหม่ → เก่า
+        return dateB - dateA;
+      }
+
+      if (type === 'oldest') {
+        // เก่า → ใหม่
+        return dateA - dateB;
+      }
+
+      if (type === 'atoz') {
+        // A → Z
+        return titleA.localeCompare(titleB, 'th');
+      }
+
+      if (type === 'ztoa') {
+        // Z → A
+        return titleB.localeCompare(titleA, 'th');
+      }
+
+      return 0;
+    });
+
+    sorted.forEach(card => grid.appendChild(card));
+  }
+
+  sortCards(sortSelect.value);
+
+  //======Click Card=====
+  const projectCards = document.querySelectorAll('.project-card');
+
+  projectCards.forEach(card => {
+    const url = card.dataset.link;
+    if (!url) return;
+
+    card.style.cursor = 'pointer';
+
+    card.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return;
+
+        window.location.href = url;
+    });
+  });
+</script>
+
+</body>
 </html>
